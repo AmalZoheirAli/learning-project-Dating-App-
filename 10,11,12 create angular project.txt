@@ -1,0 +1,39 @@
+1_install angular cli 
+npm install -g @angular/cli
+2-ng new DatingApp-sPA to create angular project .
+3-ng serve to host application 
+4-install angular extention 
+Angular 8 Snippets
+Angular Files
+angular language service 
+angular switch
+auto rename tag
+bracket pair colorized
+debugger for chrome
+Material Icon Theme
+Path Intellisense
+Prettier - Code formatter
+TSLint
+5-generate new component value
+6-import httpclientmodule in aap.module
+import {HttpClientModule} from '@angular/common/http';
+and in imports {HttpClientModule} 
+7-create object called value 
+then inject http in constructor
+get data in method form api 
+subscribe value on it
+call method in oninit
+8-add app value in app compnent
+9-allow cors in startup api.
+add corse
+use cors
+9- show values in value html 
+10- add bootstrab and font awsome
+11-npm install bootstrap font-awesome
+12-import bootstarb in style.css
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+-----------------------------------------------------------------version control
+(get status) to know if there is repo or not 
+(get init) to create repo
+create file in api clled it .gitignore(ignore what we don't need to track like .vscode) just write name in file

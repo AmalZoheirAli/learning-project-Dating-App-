@@ -1,0 +1,15 @@
+1_create models
+2-create dbcontext and add models as dbset on it
+3-addservice in startup file
+4-add connection string in appjsonsetting to call it using configration in startup file.
+dotnet tool install -g dotnet-ef   install ef
+if(package Microsoft.EntityFrameworkCore.Design doesn't exist)
+dotnet add package Microsoft.EntityFrameworkCore.Design
+5-dotnet ef migrations add IntialCreate(to  create database classes)
+6_dotnet ef database update
+create tables 
+retriving data from database
+7-inject datacontext in controller constructor toget data from data base (datacontext is used as a layer to get data).
+8_make action return IActionResult to get satatus.
+call context to get values from table.
+9_use async to await result(it represent in async task await get data from data base async)
